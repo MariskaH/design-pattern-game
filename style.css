@@ -1,0 +1,18 @@
+body {
+    color: white;
+    overflow: hidden;
+    background-color: rgb(27, 27, 27);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    top: 50%;
+    left: 50%;
+    width: 512px;
+    height: 512px;
+    position: fixed;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 4px 32px black;
+    transform: translate(-50%, -50%);
+}

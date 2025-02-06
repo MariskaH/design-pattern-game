@@ -1,0 +1,21 @@
+{
+  "name": "design-pattern-game",
+  "version": "1.0.0",
+  "description": "A simple TypeScript game using design patterns",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",                      
+    "start": "tsc --watch && serve dist" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourGitHubRepo/design-pattern-game.git"
+  },
+  "keywords": ["game", "typescript", "design patterns"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "serve": "^14.0.1"                  
+  }
+}
+
