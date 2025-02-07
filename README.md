@@ -1,9 +1,10 @@
 # Design Pattern Game
 
+## **ABOUT THE GAME**
+![Game Screenshot](assets/game-screenshot.png)
+
 ## About the Game
 This is a simple game made using **TypeScript** and **HTML5 Canvas**. The game has moving shapes (**circles, squares, and triangles**) that the player can interact with by clicking. The goal is to earn points by clicking on shapes while they move around.
-
----
 
 ## Features
 - Shapes move randomly on the screen.
@@ -11,8 +12,6 @@ This is a simple game made using **TypeScript** and **HTML5 Canvas**. The game h
 - Click on an empty space to add new shapes.
 - Shapes get faster every **30 seconds**.
 - The game runs for **2 minutes** before ending.
-
----
 
 ## Design Patterns Used
 This game follows several **software design patterns**:
@@ -29,15 +28,11 @@ This game follows several **software design patterns**:
 - **Template Method Pattern**: The game follows a **fixed update-and-draw cycle every frame** (`Game.ts`, `Loop.ts`, `Entity.ts`).
 - **Observer Pattern**: `Mouse.ts` detects mouse clicks and **notifies `Game.ts`** when an interaction happens.
 
----
-
 ## Technology Used
 - **TypeScript**: Provides better coding structure.
 - **HTML5 Canvas API**: Used for rendering graphics.
 - **RequireJS**: Helps manage script files.
 - **CSS**: Used for simple game styling.
-
----
 
 ## How to Play
 1. Open `index.html` in a web browser.
@@ -46,14 +41,10 @@ This game follows several **software design patterns**:
 4. Shapes move faster as time passes!
 5. Try to get the **highest score** before time runs out!
 
----
-
 ## How to Run the Game
 1. **Download or clone** the repository.
 2. Open the project folder.
 3. Double-click `index.html` to open it in a browser.
-
----
 
 Who Made This?
 I worked on this project alone as a way to learn about design patterns through this simple game.
