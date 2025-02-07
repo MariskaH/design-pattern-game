@@ -13,7 +13,7 @@ This is a simple game made using **TypeScript** and **HTML5 Canvas**. The game h
 - The game runs for **2 minutes** before ending.
 
 ## Design Patterns Used
-This game follows several the software design patterns:
+This game follows the software design patterns:
 
 ### 1. Creational Patterns (Making Objects)
 - **Singleton Pattern**: Ensures the game has only one instance running (`Game.ts`).
@@ -25,7 +25,7 @@ This game follows several the software design patterns:
 
 ### 3. Behavioral Patterns (How Objects Behave)
 - **Template Method Pattern**: The game follows an update-and-draw cycle every frame (`Game.ts`, `Loop.ts`, `Entity.ts`).
-- **Observer Pattern**: `Mouse.ts` detects mouse clicks and **notifies `Game.ts`** when an interaction happens.
+- **Observer Pattern**: `Mouse.ts` detects mouse clicks and notifies `Game.ts` when an interaction happens.
 
 ## Technology Used
 - **TypeScript**: Provides better coding structure.
@@ -47,7 +47,7 @@ This game follows several the software design patterns:
 
 
 ## Who Made This?
-I worked on this project **alone** as a way to learn about **design patterns** through this simple game.
+I worked on this project alone as a way to learn about design patterns through this simple game.
 
 ## License
 This project is free to use under the **MIT License**.
